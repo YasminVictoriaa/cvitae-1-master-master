@@ -13,8 +13,8 @@ ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÃ•ES DO NAVEGADOR =====*/
   } 
 .main{
 position: relative; 
-width: 1200px;
-height: 800px;
+width: 1000px;
+height: 1000px;
 background-color: rgb(72, 88, 110);
 }  
 .perfil{
@@ -32,52 +32,42 @@ background-color: rgb(72, 88, 110);
 .topR1{
 
 position: relative;
-left: 300px;
+left: 400px;
 bottom: 178px;
-width: 200px;
-height: 50px;
+width: 300px;
+height: 200px;
 background-color: rgb(96, 142, 96);
 
 }
 
-.topR2{
+.formação{
 position: relative;
-left: 300px;
-bottom: 150px;
-width: 200px;
-height: 50px;
+left: 20px;
+bottom: 100px;
+width: 350px;
+height: 250px;
 background-color: rgb(40, 68, 40);
 
 }
 
-.centro{
+.objetivo{
 margin-bottom: 10vh;
 position: relative;
-left: 20px;
-top: 10px;
-width: 280px;
-height: 280px;
+left: 400px;
+bottom: 350px;
+width: 300px;
+height: 250px;
 background-color: rgb(120, 168, 235);
 
 }
 
-.gitlink{
-border-radius: 100px;
-position: relative;
-left: 350px;
-bottom: 325px;
-width: 150px;
-height: 150px;
-background-color: rgb(10, 88, 102);
-
-}
-
-.Rodapé{
+.habilidades{
 display: inline-block;
 position: relative;
-bottom: 150px;
-width: 1200px;
-height: 160px;
+left: 50px;
+bottom: 400px;
+width: 700px;
+height: 200px;
 background-color: rgb(108, 32, 148);
 
 }
@@ -85,6 +75,7 @@ background-color: rgb(108, 32, 148);
 .imagem{
  width: 200px;
 height: 200px;
+border-radius: 100px;
 
 
 
