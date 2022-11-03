@@ -1,0 +1,91 @@
+/* ===== ESTE BLOCO FAZ UM RESET, OU SEJA GARANTE QUE ALGUNS ATRIBUTOS
+ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÃ•ES DO NAVEGADOR =====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+
+    padding: 0;
+    margin: 0;
+    vertical-align: none;
+    list-style: none;
+    border: 0;
+    color:darkblue;
+    text-decoration: none;
+  } 
+.main{
+position: relative; 
+width: 1200px;
+height: 800px;
+background-color: rgb(72, 88, 110);
+}  
+.perfil{
+ margin-top: 10vh;
+ position: relative;
+ left: 20px;
+ top: 20px;
+
+ width: 200px;
+ height:200px;
+ background-color:rgb(100, 60, 104);
+
+}
+
+.topR1{
+
+position: relative;
+left: 300px;
+bottom: 178px;
+width: 200px;
+height: 50px;
+background-color: rgb(96, 142, 96);
+
+}
+
+.topR2{
+position: relative;
+left: 300px;
+bottom: 150px;
+width: 200px;
+height: 50px;
+background-color: rgb(40, 68, 40);
+
+}
+
+.centro{
+margin-bottom: 10vh;
+position: relative;
+left: 20px;
+top: 10px;
+width: 280px;
+height: 280px;
+background-color: rgb(120, 168, 235);
+
+}
+
+.gitlink{
+border-radius: 100px;
+position: relative;
+left: 350px;
+bottom: 325px;
+width: 150px;
+height: 150px;
+background-color: rgb(10, 88, 102);
+
+}
+
+.Rodapé{
+display: inline-block;
+position: relative;
+bottom: 150px;
+width: 1200px;
+height: 160px;
+background-color: rgb(108, 32, 148);
+
+}
+
+.imagem{
+ width: 200px;
+height: 200px;
+
+
+
+}
