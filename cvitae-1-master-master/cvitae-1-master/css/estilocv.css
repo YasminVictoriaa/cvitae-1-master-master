@@ -10,22 +10,29 @@ ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÃ•ES DO NAVEGADOR =====*/
     border: 0;
     color:darkblue;
     text-decoration: none;
+
   } 
+
+  body{
+    background-color: rgb(238, 231, 205);
+  }
+
 .main{
 position: relative; 
 width: 1000px;
 height: 1000px;
-background-color: rgb(72, 88, 110);
+background-color: rgb(205, 209, 214);
+font-family: 'Nunito', sans-serif;
+font-size: 25px;
 }  
 .perfil{
  margin-top: 10vh;
  position: relative;
  left: 20px;
  top: 20px;
-
  width: 200px;
  height:200px;
- background-color:rgb(100, 60, 104);
+text-align: center;
 
 }
 
@@ -36,17 +43,16 @@ left: 400px;
 bottom: 178px;
 width: 300px;
 height: 200px;
-background-color: rgb(96, 142, 96);
+font-size: 20px;
 
 }
 
 .formação{
 position: relative;
 left: 20px;
-bottom: 100px;
+bottom: 80px;
 width: 350px;
 height: 250px;
-background-color: rgb(40, 68, 40);
 
 }
 
@@ -54,21 +60,21 @@ background-color: rgb(40, 68, 40);
 margin-bottom: 10vh;
 position: relative;
 left: 400px;
-bottom: 350px;
+bottom: 330px;
 width: 300px;
 height: 250px;
-background-color: rgb(120, 168, 235);
+text-align: center;
 
 }
 
 .habilidades{
 display: inline-block;
 position: relative;
-left: 50px;
+left: 20px;
 bottom: 400px;
 width: 700px;
 height: 200px;
-background-color: rgb(108, 32, 148);
+text-align: center;
 
 }
 
@@ -77,6 +83,50 @@ background-color: rgb(108, 32, 148);
 height: 200px;
 border-radius: 100px;
 
+}
+
+@media screen and (max-width:600px) {
+
+
+.imagem{
+  width: 250px;
+  height: 250px;
+}
+
+.objetivo{
+left: 20px;
+bottom: 200px;
+width: 350px;
+height: 250px;
+text-align: left
+
+}
+
+.habilidades{
+  left: 20px;
+bottom: 280px;
+width: 700px;
+height: 200px;
 
 
 }
+
+.perfil{
+  width: 250px;
+  height:250px;
+
+}
+
+.formação{
+  left: 20px;
+  bottom: 150px;
+  width: 350px;
+  height: 250px;
+
+}
+
+}
+ 
+
+
+
